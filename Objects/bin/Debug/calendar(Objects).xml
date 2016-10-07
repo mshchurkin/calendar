@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>calendar(Objects)</name>
+    </assembly>
+    <members>
+        <member name="T:IIS.calendar.ClientDB">
+            <summary>
+            Client DB.
+            </summary>
+        </member>
+        <member name="P:IIS.calendar.ClientDB.Name">
+            <summary>
+            Name.
+            </summary>
+        </member>
+        <member name="T:IIS.calendar.ClientDB.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.calendar.ClientDB.Views.ClientDBE">
+            <summary>
+            "ClientDBE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.calendar.ClientDB.Views.ClientDBL">
+            <summary>
+            "ClientDBL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.calendar.Event">
+            <summary>
+            Event.
+            </summary>
+        </member>
+        <member name="P:IIS.calendar.Event.Name">
+            <summary>
+            Name.
+            </summary>
+        </member>
+        <member name="P:IIS.calendar.Event.Place">
+            <summary>
+            Place.
+            </summary>
+        </member>
+        <member name="P:IIS.calendar.Event.Type">
+            <summary>
+            Type.
+            </summary>
+        </member>
+        <member name="P:IIS.calendar.Event.StartDate">
+            <summary>
+            StartDate.
+            </summary>
+        </member>
+        <member name="P:IIS.calendar.Event.EndDate">
+            <summary>
+            EndDate.
+            </summary>
+        </member>
+        <member name="P:IIS.calendar.Event.Comment">
+            <summary>
+            Comment.
+            </summary>
+        </member>
+        <member name="P:IIS.calendar.Event.Member">
+            <summary>
+            Event.
+            </summary>
+        </member>
+        <member name="T:IIS.calendar.Event.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.calendar.Event.Views.EventE">
+            <summary>
+            "EventE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.calendar.Event.Views.EventL">
+            <summary>
+            "EventL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.calendar.Member">
+            <summary>
+            Member.
+            </summary>
+        </member>
+        <member name="P:IIS.calendar.Member.ClientDB">
+            <summary>
+            Member.
+            </summary>
+        </member>
+        <member name="P:IIS.calendar.Member.Event">
+            <summary>
+            мастеровая ссылка на шапку IIS.calendar.Event.
+            </summary>
+        </member>
+        <member name="T:IIS.calendar.Member.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.calendar.Member.Views.MemberE">
+            <summary>
+            "MemberE" view.
+            </summary>
+        </member>
+        <member name="T:IIS.calendar.DetailArrayOfMember">
+            <summary>
+            Detail array of Member.
+            </summary>
+        </member>
+        <member name="M:IIS.calendar.DetailArrayOfMember.#ctor(IIS.calendar.Event)">
+            <summary>
+            Construct detail array.
+            </summary>
+            <summary>
+            Returns object with type Member by index.
+            </summary>
+            <summary>
+            Adds object with type Member.
+            </summary>
+        </member>
+    </members>
+</doc>
